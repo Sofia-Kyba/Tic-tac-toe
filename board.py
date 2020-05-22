@@ -2,7 +2,7 @@
 # all imports
 import random
 import copy
-from Tic_tac_toe.btree import BinaryTree
+from btree import BinaryTree
 
 
 class Board:
