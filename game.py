@@ -13,6 +13,7 @@ def mainGame():
     print('Your initial board: ')
     print(board)
     while True:
+        print('Your move: ')
         board.person_move()
         if board.check_win() is not None:
             if board.check_win() == 'X':
@@ -21,6 +22,7 @@ def mainGame():
             elif board.check_win() == '0':
                 print('Computer won!')
                 return
+        print("Computer's move: ")
         board.computer_move()
         if board.check_win() == '0':
             print('Computer won!')
