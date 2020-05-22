@@ -1,6 +1,6 @@
 """ Module for playing game"""
 # all imports
-from Tic_tac_toe.board import Board
+from board import Board
 
 
 def mainGame():
