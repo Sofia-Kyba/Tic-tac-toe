@@ -48,7 +48,7 @@ class Board:
 
     def computer_move(self):
         """
-        Opportunity for computer to make his move.
+        Opportunity for computer to make move.
         :return:
         """
         self._field = self.tree_creation()._field
