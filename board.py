@@ -43,7 +43,6 @@ class Board:
             chosenCol = int(input('Choose another col: '))
         self.add_pos(chosenRow, chosenCol, 'X')
         self.last_move = 'X'
-        print('\nYour action: ')
         print(self)
 
     def computer_move(self):
@@ -52,7 +51,6 @@ class Board:
         :return:
         """
         self._field = self.tree_creation()._field
-        print("Computer's action")
         print(self)
 
     def tree_creation(self):
